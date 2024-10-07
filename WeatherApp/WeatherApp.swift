@@ -1,5 +1,5 @@
 //
-//  WeatherAppApp.swift
+//  WeatherApp.swift
 //  WeatherApp
 //
 //  Created by Rutuja on 2024-10-07.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct WeatherAppApp: App {
+struct WeatherApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView() // This should point to your ContentView.swift
         }
     }
 }
